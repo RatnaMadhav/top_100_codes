@@ -1,0 +1,7 @@
+def sumNum(n):
+    n=(n*(n+1))/2
+    return n
+
+if __name__=="__main__":
+    k=int(input('Enter the number: '))
+    print(sumNum(k))

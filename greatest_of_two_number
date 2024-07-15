@@ -1,0 +1,11 @@
+def num(n1,n2):
+    if(n1>n2):
+        return 'n1 is gretaer than n2'
+    else:
+        return 'n2 is greater than n1'
+if __name__ == '__main__':
+    x1 = int(input('Enter the number1: '))
+    x2 = int(input('Enter the number2: '))
+    print((num(x1,x2)))
+
+
