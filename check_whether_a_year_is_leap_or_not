@@ -1,0 +1,10 @@
+def checkLeap(year):
+    if(year%400==0) or (year%4==0 and year%100!=0):
+        print(f"{year} year is leap")
+    else:
+        print(f"{year} year is not leap")
+    
+if __name__ == '__main__':
+    year1 = int(input('Enter the year: '))
+    checkLeap(year1)
+
