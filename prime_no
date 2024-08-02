@@ -7,7 +7,12 @@ def checkPrime(n):
         return 'number is prime'         
     else:
         return False
+    
+if __name__ == '__main__':
+    input = int(input('Enter the number: '))
+    print(checkPrime(input))
 
-print(checkPrime(13461))
+
+# print(checkPrime(13461))
 
 
